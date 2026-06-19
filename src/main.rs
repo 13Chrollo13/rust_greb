@@ -8,7 +8,8 @@ fn main() {
         for line in lines.map_while(Result::ok) {
             if line.contains(user_input) {
                 println!("{}", line);
-                let a = "f";
+                let a = "x";
+
             }
         }
     }
