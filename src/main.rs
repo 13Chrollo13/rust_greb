@@ -7,7 +7,8 @@ fn main() {
     if let Ok(lines) = read_lines("/home/shu/französich_mündlich.md") {
         for line in lines.map_while(Result::ok) {
             if line.contains(user_input) {
-                println!("{}", line)
+                println!("{}", line);
+                let a = "f";
             }
         }
     }
